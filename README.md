@@ -1,8 +1,6 @@
 # SimpleScanner
 Simple ports, backups &amp; services scanner on python
 
-
-<h1>Simple Scanner</h1>
 <b>Current version: 0.1</b>
 
 <u>Scanning for:</u>
@@ -16,7 +14,7 @@ Simple ports, backups &amp; services scanner on python
 </ul>
 
 <h2>How to use</h2>
-Usage is very simple, just chmod the script and run with with python, than enter hostname or IP address of the target:
+<p>Usage is very simple, just chmod the script and run with with python, than enter hostname or IP address of the target:</p>
 <code>
 chmod +x scan.py
 python scan.py
