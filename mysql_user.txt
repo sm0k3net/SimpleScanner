@@ -1,0 +1,12 @@
+root:root
+admin:admin
+root:123456
+root:12345
+monitor:monitor
+monitoring:monitoring
+dba:dba
+demo:demo
+test:test
+test:123
+user:password
+mysql:mysql
