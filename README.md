@@ -12,7 +12,7 @@ Simple ports, backups &amp; services scanner on python
 <li>Easy passwords for SSH service (port 22)</li></ul>
 
 <h2>How to use</h2>
-<p>Usage is very simple, just chmod the script and run with with python, than enter hostname or IP address of the target:</p>
+<p>Usage is very simple, just chmod the script and run with python, than enter hostname or IP address of the target:</p>
 <code>chmod +x scan.py</code><br/>
 <code>python scan.py</code><br/>
 <code>mysite.com</code>
