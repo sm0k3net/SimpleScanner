@@ -1,7 +1,7 @@
 # SimpleScanner
 Simple ports, backups &amp; services scanner on python
 
-<b>Current version:</b> 0.1
+<b>Current version:</b> 0.2
 
 <b>Scanning for:</b>
 <ul><li>Open ports</li>
