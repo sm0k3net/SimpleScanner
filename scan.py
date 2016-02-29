@@ -14,8 +14,9 @@ import select
 import re
 
 ##SETTINGS##
-
+print "To start scanning enter the hostname \nand choose scanning method (1 - popular ports, 2 - all ports)"
 remoteServer    = raw_input("Enter a remote host to scan: ")
+checkMethod     = raw_input("Choose scanning method (1 or 2): ")
 remoteServerIP  = socket.gethostbyname(remoteServer)
 
 class bcolors:
@@ -291,9 +292,13 @@ print "-" * 80
 
 t1 = datetime.now()
 
+if checkMethod == str(1):
+    scanPorts = [0,21,22,23,24,25,80,8080,443,1433,1521,3306,3389,5432,27017,31337,31338]
+elif checkMethod == str(2):
+    scanPorts = range(0,15000)
 
 try:
-    for port in range(0,15000):
+    for port in scanPorts:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.settimeout(1)
         result = sock.connect_ex((remoteServerIP, port))
